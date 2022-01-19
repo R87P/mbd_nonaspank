@@ -1,0 +1,56 @@
+.card-1 {
+    background-image: url(/Images/[CITYPNG.COM]HD\ Red\ Youtube\ YT\ Neon\ Logo\ Symbol\ Sign\ Icon\ PNG\ -\ 3712x2661.png);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 10px;
+    height: 250px;
+    width: 250px;
+    
+
+}
+
+.card-2 {
+    background-image: url(/Images/TikTokIconNona.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 10px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.card-3 {
+    background-image: url(/Images/Facebook\ Logos\ Icons.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 10px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.card-4 {
+    background-image: url(/Images/Instagram\ Logos\ Icons.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 10px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.card-5 {
+    background-image: url(/Images/Twitter\ Icons.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 10px;
+    height: 250px;
+    width: 250px;
+   
+}

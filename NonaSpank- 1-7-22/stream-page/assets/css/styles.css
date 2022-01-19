@@ -1,0 +1,148 @@
+@font-face {
+    font-family: jhm;
+    src: url(/fonts/JmhhalloweenRegular-3gBZ.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #272024;
+}
+
+.navbar {
+    background-color: #272024;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  
+}
+
+.navbar h2 {
+    display: flex;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.navbar h1 {
+    color: rgb(64, 190, 240);
+    font-size: 40px;
+    font-family: 'Vujahday Script', cursive;
+}
+
+.navbar ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #fff;
+    /* background-color: #fff; */
+    border-radius: 7%;
+    font-size: 25px;
+    font-family: jhm;
+    transition: all .2s ease-in-out;
+}
+
+.navbar a:hover {
+    transform: scale(1.3);
+    /* background-color: #f754eb; */
+    color: orange;
+    text-shadow: 2px 2px rgba(57, 168, 195, 0.9);
+}
+
+/* Hero */
+
+.img-1 {
+    background-image: url(/Images/synthwave_orange_nona.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 1100px;
+}
+
+.merch-img {
+    margin-right: 70%;
+    margin-top: 2%;
+    
+}
+
+.merch-img:hover {
+    transform: scale(1.5);
+    margin-right: 60%;
+    margin-top: 3%;
+    box-shadow: 2px 2px 4px 18px rgba(255, 94, 20, 0.4);
+}
+
+
+footer {
+    background-color: transparent;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.fa-facebook {
+    color: plum;
+    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
+}
+
+.fa-facebook:hover {
+    color: #40e0d0;
+    text-shadow: 4px 4px plum;
+}
+
+.fa-twitter {
+    color: plum;
+    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
+}
+
+.fa-twitter:hover {
+    color: #40e0d0;
+    text-shadow: 4px 4px plum;
+}
+
+.fa-instagram {
+    color: plum;
+    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
+}
+
+.fa-instagram:hover {
+    color: #40e0d0;
+    text-shadow: 4px 4px plum;
+}
+
+.fa-tiktok {
+    color: plum;
+    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
+}
+
+.fa-tiktok:hover {
+    color: #40e0d0;
+    text-shadow: 4px 4px plum;
+}
+
+.fa-youtube {
+    color: plum;
+    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
+}
+
+.fa-youtube:hover {
+    color: #40e0d0;
+    text-shadow: 4px 4px plum;
+}
+
+.mbd {
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0, 0.7);
+    margin-left: 2%;
+}
