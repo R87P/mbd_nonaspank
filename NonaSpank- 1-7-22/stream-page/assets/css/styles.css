@@ -7,6 +7,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-image: url(/Images/synthwave_orange_nona.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: #272024;
 }
 
@@ -17,7 +24,6 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-  
 }
 
 .navbar h2 {
@@ -54,95 +60,37 @@
     text-shadow: 2px 2px rgba(57, 168, 195, 0.9);
 }
 
+
 /* Hero */
 
-.img-1 {
-    background-image: url(/Images/synthwave_orange_nona.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.social-txt {
     display: flex;
     justify-content: center;
-    height: 1100px;
+    font-family: jhm;
+    font-size: 100px;
+    padding-right: 3%;
+    color: orange;
+    text-shadow: 4px 4px 5px rgba(10, 130, 141, 0.7);
 }
 
-.merch-img {
-    margin-right: 70%;
-    margin-top: 2%;
-    
-}
-
-.merch-img:hover {
-    transform: scale(1.5);
-    margin-right: 60%;
-    margin-top: 3%;
-    box-shadow: 2px 2px 4px 18px rgba(255, 94, 20, 0.4);
-}
-
-
-footer {
-    background-color: transparent;
-}
-
-.footer-social {
+.section-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: transparent;
+    align-items: center;
+    margin-bottom: 5%;
 }
 
-.fa-facebook {
-    color: plum;
-    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
+.section-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.fa-facebook:hover {
-    color: #40e0d0;
-    text-shadow: 4px 4px plum;
-}
-
-.fa-twitter {
-    color: plum;
-    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
-}
-
-.fa-twitter:hover {
-    color: #40e0d0;
-    text-shadow: 4px 4px plum;
-}
-
-.fa-instagram {
-    color: plum;
-    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
-}
-
-.fa-instagram:hover {
-    color: #40e0d0;
-    text-shadow: 4px 4px plum;
-}
-
-.fa-tiktok {
-    color: plum;
-    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
-}
-
-.fa-tiktok:hover {
-    color: #40e0d0;
-    text-shadow: 4px 4px plum;
-}
-
-.fa-youtube {
-    color: plum;
-    text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
-}
-
-.fa-youtube:hover {
-    color: #40e0d0;
-    text-shadow: 4px 4px plum;
-}
-
-.mbd {
-    color: white;
-    text-shadow: 2px 2px rgb(0, 0, 0, 0.7);
-    margin-left: 2%;
+.section-item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }

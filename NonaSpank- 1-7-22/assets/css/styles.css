@@ -9,10 +9,6 @@
     padding: 0;
 }
 
-body {
-   
-}
-
 .navbar {
     background-color: transparent;
     background-position: bottom;
@@ -48,6 +44,8 @@ body {
     font-size: 30px;
     font-family: jhm;
     transition: all .2s ease-in-out;
+    text-shadow: 2px 2px rgba(57, 168, 195, 0.9);
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -67,21 +65,20 @@ body {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    height: 850px;
+    height: auto;
 }
 
 
 /* Carousel/Nav */
 
 .carousel {
-   border-radius: 5%;
+    background: #7C1EC6;
 }
 
 .carousel-container {
-    max-width: 100%;
     position: relative;
-    margin: auto;
-  
+    margin: 0px 50px;
+    padding: 50px 0px;
 }
 
 .slides {
@@ -162,41 +159,32 @@ body {
 /* Social w Synthwave */
 
 .social {
-    background-color: #0e3763; 
-    background-image:url("/Images/synthwave_3color.png");
-    
+    background-color: #0e3763;
+    background-image: url("/Images/synthwave_3color.png");
     background-size: cover;
-    
     background-position: center;
-    
-    width:100%;
+    width: 100%;
     height: 100%;
-    
-    
 }
 
 .social-txt {
-   
     display: flex;
     justify-content: center;
     font-family: jhm;
     font-size: 100px;
     padding-right: 3%;
-   
     background: #76EBDB;
     background: -webkit-radial-gradient(ellipse farthest-corner at top center, #76EBDB 15%, #CD32C5 100%);
     background: -moz-radial-gradient(ellipse farthest-corner at top center, #76EBDB 15%, #CD32C5 100%);
     background: radial-gradient(ellipse farthest-corner at top center, #76EBDB 15%, #CD32C5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 
 .links {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    
 }
 
 @-webkit-keyframes fade {
@@ -246,18 +234,61 @@ body {
     width: 100%;
 }
 
-
-
-.footer-container {
-   height: 80px;
-   background: #0e3763;
+.footer {
+    background-color: rgb(235, 225, 225);
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
 }
 
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
 
-   
+.footer-container a {
+    font-size: 15px;
+    color: white;
+}
 
+.nona-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 25px;
+}
 
-.fa-facebook {
+.nona-footer-img {
+    background-image: url(/Images/nona_logo_2.5x2.5.png);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.copyright a {
+    padding-bottom: 20px;
+}
+
+.mbd-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 10px 25px;
+}
+
+. .fa-facebook {
     color: plum;
     text-shadow: 4px 4px rgba(10, 130, 141, 0.7);
 }
@@ -309,7 +340,5 @@ body {
 
 .mbd {
     color: white;
-    text-shadow: 2px 2px rgb(0, 0, 0, 0.7);
-    margin-left: 2%;
-    color: black;
+    text-shadow: 2px 2px rgba(230, 37, 37, 0.7);
 }
