@@ -1,4 +1,4 @@
-@font-face {
+.neon-btn@font-face {
     font-family: jhm;
     src: url(/fonts/JmhhalloweenRegular-3gBZ.ttf);
 }
@@ -68,6 +68,9 @@ body {
 
 
 /* Hero */
+
+
+
 
 .social-txt {
     display: flex;
@@ -189,12 +192,13 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px #39a8c3e6;
     color: #a01a7d;
+    margin-bottom: 5%;
 }
 
 .product-info {
     background-color: transparent;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-top: 15%;
     font-weight: bold;
     text-align: center;
     text-shadow: 12px 12px #39a8c3e6, 24px 24px white;
@@ -213,3 +217,177 @@ body {
     border: 4px solid rgb(15, 15, 15);
     box-shadow: 2px 2px 2px 2px #a01a7d, 0 0 0.5em #a01a7d, 0 0 0.1em #a01a7d, 0 10px 3px #000;
 }
+
+
+.footer {
+    background-color: rgb(235, 225, 225);
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.footer-container a {
+    font-size: 15px;
+    color: white;
+}
+
+.nona-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 25px;
+}
+
+.nona-footer-img {
+    background-image: url(/Images/nona_logo_2.5x2.5.png);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.copyright a {
+    padding-bottom: 20px;
+}
+
+.mbd-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 10px 25px;
+}
+
+
+/* neon buttons */
+
+
+.neon-btn{
+	color: #03E9F4;
+	display: inline-block;
+	font-size: 24px;
+	letter-spacing: 4px;
+	margin: 20px 40px;
+	padding: 24px 30px;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-family: jhm;
+	transition: 0.5s;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    border-radius: 8%;
+    margin-bottom: 10%;
+    margin-top:5%;
+}
+
+.neon-btn:nth-child(1){
+	filter: hue-rotate(290deg);
+}
+
+.neon-btn:nth-child(3){
+	filter: hue-rotate(110deg);
+}
+
+.neon-btn:hover{
+	background: #03E9F4;
+	box-shadow: 0 0 5px #03E9F4, 0 0 25px #03E9F4, 0 0 50px #03E9F4, 0 0 200px #03E9F4;
+	color: #050801;
+}
+
+.neon-btn span{
+	display: block;
+	position: absolute;
+}
+
+.neon-btn span:nth-child(1){
+	animation: animate1 1s linear infinite;
+	background: linear-gradient(90deg, transparent, #03E9F4);
+	height: 2px;
+	left: -100%;
+	top: 0;
+	width: 100%;
+}
+
+@keyframes animate1{
+	0%{
+		left: -100%;
+	}
+	50%, 100%{
+		left: 100%;	
+	}
+}
+
+.neon-btn span:nth-child(2){
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
+	background: linear-gradient(180deg, transparent, #03E9F4);
+	height: 100%;
+	top: -100%;
+	right: 0;
+	width: 2px;
+}
+
+@keyframes animate2{
+	0%{
+		top: -100%;
+	}
+	50%, 100%{
+		top: 100%;	
+	}
+}
+
+.neon-btn span:nth-child(3){
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+	background: linear-gradient(270deg, transparent, #03E9F4);
+	bottom: 0;
+	height: 2px;
+	right: -100%;
+	width: 100%;
+}
+
+@keyframes animate3{
+	0%{
+		right: -100%;
+	}
+	50%, 100%{
+		right: 100%;	
+	}
+}
+
+.neon-btn span:nth-child(4){
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+	background: linear-gradient(360deg, transparent, #03E9F4);
+	bottom: -100%;
+	height: 100%;
+	left: 0;
+	width: 2px;
+}
+
+@keyframes animate4{
+	0%{
+		bottom: -100%;
+	}
+	50%, 100%{
+		bottom: 100%;	
+	}
+}
+
+/* neon button end */ 
