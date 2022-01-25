@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Righteous&family=Titillium+Web:wght@200&display=swap');
+@font-face {
+    font-family: jhm;
+    src: url(/fonts/JmhhalloweenRegular-3gBZ.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: transparent;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.nav-hero-bg-img{
+    background-image: url(/Images/nona\ -\ bg\ -\ stars.jpg);
+
+
+
+}
+
+.navbar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:rgba(197, 202, 204, 0.2);
+    top: 0;
+    z-index:10;
+    transition: top 0.3s;
+   }
+
+.navbar h2 {
+    display: flex;
+    border-radius: 50%;
+   
+}
+
+.navbar h1 {
+    color: rgb(64, 190, 240);
+    font-size: 60px;
+    font-family: 'Vujahday Script', cursive;
+}
+
+.navbar ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #ff0afb;
+    background-color: #03e9f4;
+    border-radius: 7%;
+    font-size: 40px;
+    font-family: jhm;
+    transition: all .2s ease-in-out;
+    text-shadow: 2px 2px rgba(57, 168, 195, 0.9);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    transform: scale(1.3);
+    /* background-color: #f754eb; */
+    color: #37bae2;
+}
+
+/* hero */
+.social-txt {
+    display: flex;
+    justify-content: center;
+    font-family: jhm;
+    font-size: 100px;
+    padding-right: 3%;
+    margin-bottom: 10%;
+    text-shadow: 6px 6px rgb(156, 61, 148);
+    color: #39a8c3e6;
+    margin-top: 2%;
+}
+
+.social-txt:hover {
+    color: #FF1493;
+    text-shadow: 6px 6px #39a8c3e6;
+}
+
+.img-1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
