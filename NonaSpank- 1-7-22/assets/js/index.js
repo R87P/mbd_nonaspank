@@ -26,3 +26,15 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementByClass("nav-frame").style.top = "0";
+  } else {
+    document.getElementByClass("nav-frame").style.top = "-50%";
+  }
+  prevScrollpos = currentScrollPos;
+}
