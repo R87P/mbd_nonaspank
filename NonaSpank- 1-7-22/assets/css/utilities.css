@@ -56,9 +56,9 @@
 }
 
  .card-6{
-    
-    border: 3px solid rgb(45, 236, 236);
-   
+    display: flex;
+    border: 3px solid #39ff14;
+   border-radius: 20vh;
     height: 100vh;
     width: 100vh;
 } 

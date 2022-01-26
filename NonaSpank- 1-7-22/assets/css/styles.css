@@ -12,7 +12,7 @@
 
 
 .nav-hero-bg-img {
-    background-image: url(/images/stars-w-bg-final-1.jpg);
+    background-image: url(/Images/stars-final-green-01.jpg);
     background-color: #001d3d;
     background-repeat: no-repeat;
 }
@@ -37,8 +37,17 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     position: relative;
-    box-shadow: 10px 10px 25px 25px #f2f2f2,10px 10px 15px 15px #76EBDB;
+
+    animation-name: h2;
+    animation-duration: 4s
 }
+
+@keyframes h2 {
+    0%   {box-shadow:10px 10px 85px 55px #76EBDB;}
+    25%  {box-shadow:10px 10px 85px 55px #b429f9;}
+    50%  {box-shadow:10px 10px 85px 55px #ff0afb;}
+    100% {box-shadow:10px 10px 85px 55px #39ff14;}
+  }
 
 .navbar h1 {
     color: rgb(64, 190, 240);
@@ -53,20 +62,20 @@
 }
 
 .navbar a {
-    color: #ff0afb;
+    color: #39ff14;
     /* background-color: #fff; */
     border-radius: 7%;
     font-size: 40px;
     font-family: jhm;
     transition: all .2s ease-in-out;
-    text-shadow: 2px 2px #03e9f4;
+    text-shadow: 2px 2px #ff0afb;
     text-decoration: none;
 }
 
 .navbar a:hover {
     transform: scale(1.3);
-    /* background-color: #ff0afb; */
-    color: #03e9f4;
+    
+    color: #ff0afb;
 }
 
 
@@ -85,15 +94,31 @@
     margin: 20px 0;
 }
 
-.hero-h {
-    font-family: 'Righteous', cursive;
-    font-size: 4rem;
-    text-shadow: 15px 15px 55px #b429f9, 10px 10px 20px #ff0afb;
-    color: ;
-    -webkit-text-stroke: 2px #03e9f4 ;
+.hero-cta a {
+    font-family: jhm;
+    font-size: 5rem;
+    margin-top: 10%;
+    margin-bottom: -15%;
+    
+    color: transparent;
+    -webkit-text-stroke: 2px #39ff14 ;
+    text-shadow: 0px 0px 85px red;
+    text-decoration: none;
+    
 }
 
+.hero-cta:hover{
+    transform: scale(1.3);
+    color: #ff0afb; 
+}
 
+@keyframes h1 {
+    0%   {text-shadow: 0px 0px 85px white;}
+    15%  {text-shadow: 0px 0px 55px white, 0px 0px 100px #76EBDB;}
+    25%  {text-shadow: 0px 0px 55px white, 0px 0px 100px #39ff14;}
+    50%  {text-shadow: 0px 0px 55px white, 0px 0px 100px #ff0afb;}
+    100% {text-shadow: 0px 0px 55px white, 0px 0px 100px #b429f9;}
+  }
 
 
 .img-1 {
@@ -107,24 +132,35 @@
     position: relative;
 }
 
-
+.carousel-guide {
+    display: flex;
+    justify-content: center;
+    font-family: jhm;
+    font-size: 2rem;
+    padding-right: 3%;
+    background-color: #001d3d;
+    color: #39ff14;
+    text-shadow: 10px 10px 25px black,0px 0px 55px white;
+}
 /* Carousel/Nav */
 
 .carousel {
-    background-color: #001d3d;
+    background-image: url(/images/carousel-wave-01.jpg);
+   background-size: cover;
+    display: flex;
+    justify-content: center;
     
 }
 
 .carousel-container {
+    max-width: 100vw;
     position: relative;
     margin: 0px 50px;
     padding: 50px 0px;
 }
 
 .slides {
-    display: flex;
-    
-    
+    display: none;   
 }
 
 .prev,
@@ -165,29 +201,6 @@
     text-align: center;
 }
 
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: rgb(22, 41, 153);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dots {
-    margin-top: -1%;
-    padding-top: 1%;
-    background-color: #000000;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-
 /* Fading animation */
 
 .fade {
@@ -202,7 +215,7 @@
 
 .social {
      background-color: #0e3763; 
-    background-image: url(/Images/3color-wave.jpg);
+    background-image: url(/Images/synthwave-3color-green.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -215,10 +228,10 @@
     font-family: jhm;
     font-size: 100px;
     padding-right: 3%;
-    background: #76EBDB;
-    background: -webkit-radial-gradient(ellipse farthest-corner at top center, #76EBDB 15%, #CD32C5 100%);
-    background: -moz-radial-gradient(ellipse farthest-corner at top center, #76EBDB 15%, #CD32C5 100%);
-    background: radial-gradient(ellipse farthest-corner at top center, #76EBDB 15%, #CD32C5 100%);
+    
+    background: -webkit-radial-gradient(ellipse farthest-corner at top center, #39ff14 10%, #ff0afb 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at top center, #39ff14 10%, #ff0afb 80%);
+    background: radial-gradient(ellipse farthest-corner at top center, #39ff14 10%, #ff0afb 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -254,7 +267,7 @@
 .image1 {
     background-image: url('/Images/218110705_105767088452949_65679157053142834_n.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
   
 }
@@ -286,7 +299,7 @@
 }
 
 .footer-container {
-    background-color: #0e3767;
+    background-image: url(/Images/3color-wave.jpg);
     display: flex;
     justify-content: space-between;
     width: 100%;
